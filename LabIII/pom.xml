@@ -8,14 +8,16 @@
 		<version>2.7.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.pessti</groupId>
-	<artifactId>mercweb</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>mercweb</name>
+		<groupId>br.com.pessti</groupId>
+		<artifactId>mercweb</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<name>mercweb</name>
 	<description>Demo project for Spring Boot</description>
+
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -39,8 +41,8 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
